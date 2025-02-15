@@ -32,9 +32,8 @@
             from { opacity: 0; transform: scale(0.9); }
             to { opacity: 1; transform: scale(1); }
         }
-        iframe {
+        audio {
             margin-top: 20px;
-            border-radius: 10px;
         }
     </style>
 </head>
@@ -45,9 +44,11 @@
         <p>Une petite attention rien que pour toi 💐</p>
         <p>De la part de Vida 🙃</p>
 
-        <!-- Ajouter un lecteur YouTube -->
-        <iframe width="300" height="150" src="https://www.youtube.com/embed/qlYlG8Xj8xg?autoplay=1&loop=1&playlist=qlYlG8Xj8xg" 
-                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <!-- Ajout du lecteur MP3 -->
+        <audio controls autoplay loop>
+            <source src="https://raw.githubusercontent.com/VidaPer/StVal/main/The%20Weeknd%20-%20DIE%20FOR%20YOU%20(Lyrics).mp3" type="audio/mpeg">
+            Votre navigateur ne supporte pas l'audio.
+        </audio>
     </div>
 </body>
 </html>
